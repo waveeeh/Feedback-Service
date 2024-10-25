@@ -125,7 +125,7 @@
     <!--messages-->
     <div class="ml-64 pt-20 px-4">
         <div class="flex flex-col gap-2.5">
-            <div class="border border-gray-200 p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 1: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
+            <div class="border border-gray-200 bg-[#FDFDFD] drop-shadow-lg  p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 1: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
                 <img src="" alt="avatar" class="rounded-full mr-3 w-12 h-12" />
                 <div class="flex-1 flex items-center justify-between">
                     <span class="text-gray-700 font-semibold">Joe Nyak</span>
@@ -133,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="border border-gray-200 p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 2: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
+            <div class="border border-gray-200 bg-[#FDFDFD] drop-shadow-lg  p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 2: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
                 <img src="" alt="avatar" class="rounded-full mr-3 w-12 h-12" />
                 <div class="flex-1 flex items-center justify-between">
                     <span class="text-gray-700 font-semibold">Joe Nyak</span>
@@ -141,7 +141,7 @@
                 </div>
             </div>
 
-            <div class="border border-gray-200 p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 3: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
+            <div class="border border-gray-200 bg-[#FDFDFD] drop-shadow-lg  p-4 rounded-lg hover:bg-gray-100 flex items-center justify-between cursor-pointer" onclick="openModal('Message 3: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus amet omnis facilis sunt veritatis voluptates, incidunt, quae tempore alias ratione mollitia quod veniam deleniti sint soluta suscipit rerum dolor optio.')">
                 <img src="" alt="avatar" class="rounded-full mr-3 w-12 h-12" />
                 <div class="flex-1 flex items-center justify-between">
                     <span class="text-gray-700 font-semibold">Joe Nyak</span>
@@ -217,6 +217,33 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!--Archives Role-->
+    <div class="ml-64 pt-20 px-4">
+        <div class="max-screen mx-auto mt-8 bg-[#FDFDFD] drop-shadow-lg p-6 rounded-lg">
+            <table class="min-w-full table-auto border-collapse">
+                <thead>
+                    <tr class=" text-left text-base text-[#808185]">
+                    <th class="p-4">Image</th>
+                    <th class="p-4">Full Name</th>
+                    <th class="p-4">Role</th>
+                    <th class="p-4">Deleted at</th>
+                    </tr>  
+                </thead> 
+                <tbody class="text-base text-semibold">
+                    <tr class="border-b">
+                        <td class="p-4">
+                            <img src="" alt="" class="h-10 w-10 rounded-full">
+                        </td>
+                        <td class="p-4">Rizal</td>
+                        <td class="p-4">Role in the deep</td>
+                        <td class="p-4">10/10</td>
+                        <td class="p-4 flex space-x-2"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
